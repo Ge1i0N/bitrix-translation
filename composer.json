@@ -1,0 +1,28 @@
+{
+    "name": "ge1i0n/bitrix-translation",
+    "license": "MIT",
+    "keywords": [
+        "bitrix",
+        "translation",
+        "localization"
+    ],
+    "authors": [{
+        "name": "Gennadiy Sevalnev",
+        "email": "gennadiy.sevalnev@mail.ru"
+    }],
+    "homepage": "https://github.com/ge1i0n/bitrix-translation",
+    "require": {
+        "php": ">=7.3.0",
+        "illuminate/config": "8.*",
+        "illuminate/container": "8.*",
+        "illuminate/translation": "8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gelion\\BitrixTranslation\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    }
+}
